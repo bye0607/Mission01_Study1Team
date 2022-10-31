@@ -1,0 +1,390 @@
+@charset "utf-8";
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul, li, ol {
+    list-style: none;
+}
+/* common */
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    overflow: hidden;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* header */
+header {
+    width: 100%;
+    height: 80px;
+    margin: 14px 0 0 0;
+    box-sizing: border-box;
+}
+h1 img {
+    width: 66px;
+}
+h1 {
+    float: left;
+    margin: 0 75px 0 0;
+}
+nav {
+    float: left;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+    margin: 16px 58px 0 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+nav ul li a {
+    color: #292929;
+}
+nav_r {
+    float: right;
+    overflow: hidden;
+}
+nav_r ul li {
+    float: right;
+    margin: 20px 0 0 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+nav_r ul li img {
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-size: cover;
+}
+.nav_icon {
+    float: right;
+    width: 40px;
+    height: 40px;
+}
+/* nav hover */
+nav ul li a:hover{
+    color: #ff7b00;
+}
+/* main_visual */
+#main_visual {
+    clear: both;
+    width: 100%;
+    height: 1000px;
+    background-image: url(../resources/images/jungenjin/main.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #707070;
+    background-blend-mode: multiply;
+}
+.maintext {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 300;
+    margin: 226px 0 0 0;
+    box-sizing: border-box;
+    letter-spacing: -0.45px;
+    line-height: 125%;
+}
+h2 {
+    font-size: 70px;
+    color: #ffff;
+    margin: 10px 0 0 0;
+    box-sizing: border-box;
+    letter-spacing: -4.7px
+}
+/* common title */
+.title1 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #292929;
+    margin: 154px 0 100px 0;
+    box-sizing: border-box;
+}
+
+/* 1 */
+#part_1 {
+    width: 100%;
+    height: 1080px;
+    clear: both;
+}
+.text_box1{
+    float: left;
+    width: 278px;
+    height: 200px;
+}
+.sub {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 130%;
+}
+.sub_1 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 120%;
+    padding: 6px 0 0 0;
+}
+.button {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 55px 0 0 0;
+    color: #ff7b00;
+}
+.text1 {
+    padding: 305px 0 0 27px;
+    font-size: 16px;
+    color: #fff;
+}
+.text2 {
+    padding: 0 0 0 27px;
+    font-size: 30px;
+    font-weight: 100;
+    color: #fff;
+}
+.part_1box1 {
+    float: left;;
+    width: 277px;
+    height: 398px;
+    margin: 0 30px 0 30px;
+    background-image: url(../resources/images/jungenjin/flour.jpg);
+    background-color: #707070;
+    background-blend-mode: multiply;
+}
+.part_1box2 {
+    float: left;
+    box-sizing: border-box;
+    width: 277px;
+    height: 398px;
+    margin: 0 30px 0 0;
+    background-image: url(../resources/images/jungenjin/peach.jpg);
+    background-color: #707070;
+    background-blend-mode: multiply;
+}
+.part_1box3 {
+    float: left;
+    box-sizing: border-box;
+    width: 277px;
+    height: 398px;
+    background-image: url(../resources/images/jungenjin/egg.jpg);
+    background-color: #707070;
+    background-blend-mode: multiply;
+}
+/* 1-hover */
+.button:hover {
+    color: #ff7b00;
+    font-weight: bold;
+}
+.part_1box1:hover {
+    background-color: #252525;
+    background-blend-mode: multiply;
+}
+.part_1box2:hover {
+    background-color: #252525;
+    background-blend-mode: multiply;
+}
+.part_1box3:hover {
+    background-color: #252525;
+    background-blend-mode: multiply;
+}
+/* 2 */
+#part_2 {
+    width: 100%;
+    height: 1080px;
+    clear: both;
+}
+.part_2box1 {
+    float: left;
+    width: 277px;
+    height: 380px;
+}
+.part_2box2{
+    float: left;
+    width: 277px;
+    height: 380px;
+    margin: 0 0 0 30px;
+}
+.text_box2 {
+    width: 278px;
+    height: 70px;
+    margin: 26px 0 0 0;
+}
+.text3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.text4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6c757d;
+}
+.boximg1{
+    object-fit: contain;
+    width: 278px;
+    height: 284px;
+    background-image: url(../resources/images/jungenjin/milk.jpg);
+    background-position: center;
+}
+
+.boximg2{
+    width: 278px;
+    height: 284px;
+    background-image: url(../resources/images/jungenjin/beverage.jpg);
+    background-position: center;
+}
+.boximg3{
+    width: 278px;
+    height: 284px;
+    background-image: url(../resources/images/jungenjin/cheese.jpg);
+    background-position: center;
+}
+.boximg4{
+    width: 278px;
+    height: 284px;
+    background-image: url(../resources/images/jungenjin/soup.jpg);
+    background-position: center;
+}
+/* 2-hover */
+.text3:hover {
+    color: #ff7b00;
+}
+/* 3 */
+#part_3 {
+    width: 100%;
+    height: 1080px;
+    clear: both;
+}
+.part_3box1 {
+    float: left;
+    width: 584px;
+    height: 398px;
+    background-image: url(../resources/images/jungenjin/bakery1.jpg);
+    background-color: #707070;
+    background-blend-mode: multiply;
+}
+.part_3box2 {
+    float: left;
+    margin: 0 0 0 30px;
+    width: 584px;
+    height: 398px;
+    background-image: url(../resources/images/jungenjin/bakery2.jpg);
+    background-color: #707070;
+    background-blend-mode: multiply;
+}
+.text5 {
+    text-align:center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 150px 0 0 0;
+    color: #fff;
+}
+.text6 {
+    text-align:center;
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+}
+/* 3-hover */
+.part_3box1:hover {
+    background-color: #252525;
+    background-blend-mode: multiply;
+}
+.part_3box2:hover {
+    background-color: #252525;
+    background-blend-mode: multiply;
+}
+/* footer */
+footer {
+    clear: both;
+    width: 100%;
+    height: 246px;
+    background-color: #495057;
+    clear: both;
+}
+.text7 {
+    font-size: 20px;
+    font-weight: 100;
+    color: #f8f9fa;
+}
+.part_4box1 {
+    float: left;
+    width: 277px;
+    height: 155px;
+    margin: 27px 0 0 0;
+}
+.text8 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #161a1d;
+}
+.text9 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #adb5bd;
+}
+.part_4box2 {
+    float: left;
+    width: 585px;
+    height: 155px;
+    margin: 27px 0 0 30px;
+}
+.boximg5 {
+    float: left;
+    width: 175px;
+    height: 114px;
+    background-image: url(../resources/images/jungenjin/bakery3.jpg);
+    background-position: center;
+    margin: 9px 0 0 0;
+}
+.text_box3 {
+    float: left;
+    width: 380px;
+    height: 114px;
+    margin: 9px 0 0 30px;
+}
+.text10 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #dee2e6;
+}
+.part_4box3 {
+    float: left;
+    width: 277px;
+    height: 155px;
+    margin: 27px 0 0 30px;
+}
+.iconbox1 {
+    float: left;
+    width: 72px;
+    height: 70px;
+    background-image: url(../resources/images/jungenjin/youtube_icon.svg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    filter: invert(7%) sepia(7%) saturate(1352%) hue-rotate(163deg) brightness(95%) contrast(93%);
+}
+.iconbox2 {
+    float: left;
+    width: 72px;
+    height: 70px;
+    margin: 0 0 0 30px;
+    background-image: url(../resources/images/jungenjin/twitter_icon.svg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    filter: invert(7%) sepia(7%) saturate(1352%) hue-rotate(163deg) brightness(95%) contrast(93%);
+}
+.iconbox3 {
+    float: left;
+    width: 72px;
+    height: 70px;
+    margin: 0 0 0 30px;
+    background-image: url(../resources/images/jungenjin/instagram_icon.svg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    filter: invert(7%) sepia(7%) saturate(1352%) hue-rotate(163deg) brightness(95%) contrast(93%);
+}
