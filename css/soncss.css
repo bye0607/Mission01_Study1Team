@@ -1,0 +1,40 @@
+
+
+li {list-style: none;padding-left: 10px; padding-right: 20px; }
+#header {text-align: center;}
+#header .logo {float: left; width:250px; height:50px; line-height: 25px; background: white; font-size: 30px; margin: 20px;}
+
+.wraplogo{font-size: 10px; display: flex; text-align: right;  float: right; }
+.span{color: white; padding: 20px 0px;}
+.images{margin: 0px; padding: 0px; display: flex;}
+
+
+
+
+.info{
+    color: white;
+    background: black;
+    font-size: 12px;
+    text-align: center;
+    list-style: none;
+    width: inherit;
+    margin-bottom: 0px;
+}
+
+.h3Intro{margin: 15px; padding-right: 10px;  text-align: left; }
+.contentIntro{border: 1px solid black;  text-align: center; margin: 30px;padding: 130px;}
+.pcontentIntro{font-size: 12px;}
+.pageInheader{ border-top: 1px solid black; border-bottom: 1px solid black; text-align: center;width: inherit;}
+
+
+/* width:950px; height:100px; line-height: 100px; background: white ;color: black; font-size: 12px;
+display: flex; border: 1px black; }
+
+.wraplogo{ 
+    color: black;
+    background: white;
+    font-size: 12px;
+    text-align: center;
+    list-style: none;
+    }
+    #header nav {font-size: 12px; display: flex;}
